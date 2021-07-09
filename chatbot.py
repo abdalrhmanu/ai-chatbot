@@ -2,6 +2,7 @@ import random
 import json
 import pickle
 import numpy as np
+import sys
 
 import nltk
 # nltk.download('punkt')
@@ -61,6 +62,10 @@ print("Go! Bot is running!")
 
 while True:
     message = input("")
+    
+    if message == "close":
+        sys.exit()
+
     ints = predict_class(message)
     res = get_response(ints, intents)
     print(res)
