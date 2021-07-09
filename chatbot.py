@@ -58,12 +58,14 @@ def get_response(intents_list, intents_json):
     return result
 
 
-print("Go! Bot is running!")
+print("\n\n")
+print("Go! Bot is running! To finish the conversation, write close.")
 
 while True:
     message = input("")
-    
+
     if message == "close":
+        print("Thank you for reaching out! See you soon.")
         sys.exit()
 
     ints = predict_class(message)

@@ -22,6 +22,18 @@
   {"tag": "time",
     "patterns": ["What time is it?", "What is the time now?", "Time please"],
     "responses": ["It is 10AM..", "Seems too early to talk."]
+  },
+  {"tag": "machine-learning",
+    "patterns": ["Tell me more about machine learning", "What is machine learning", "what is ml?", "what do you know about ML", "I want to know about machine learning"],
+    "responses": ["Machine Learning (ML) is The science of automate a task using some autonomous bots created by several programming languages (python, C++, Java, R,  LISP ... and many others )", "Machine learning is a branch of artificial intelligence (AI) and computer science which focuses on the use of data and algorithms to imitate the way that humans learn, gradually improving its accuracy."]
+  },
+  {"tag": "artificial-intelligence",
+    "patterns": ["What is artificial intelligence?", "What do you know about ai?", "what is ai?" ,"can i know about artificial intelligence? aka AI", "Tell me about AI", "what is AI?"],
+    "responses": ["Artificial intelligence is the simulation of human intelligence processes by machines, especially computer systems", "Artificial Intelligence (AI) is the branch of computer sciences that emphasizes the development of intelligence machines, thinking and working like humans. For example, speech recognition, problem-solving, learning and planning."]
+  },
+  {"tag": "deep-learning",
+    "patterns": ["What is deep learning?", "What is DL?", "I want to know more about deep learning", "what do you know about deep learning?", "Tell me about deep learning", "tell me amout dl"],
+    "responses": ["Deep Learning is an AI method that tries to find patterns to predict what could be next.", "Deep learning is a type of machine learning and artificial intelligence (AI) that imitates the way humans gain certain types of knowledge. Deep learning is an important element of data science, which includes statistics and predictive modeling."]
   }
 ]
 }
